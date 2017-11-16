@@ -57,8 +57,8 @@ class Core
 		$this->loader->add_filter('manage_media_columns', $admin, 'adjust_media_library_cols');
 		$this->loader->add_action('manage_media_custom_column', $admin, 'adjust_media_library_vals', 10, 2);
 
-		//$cookie = new Cookies($this->version);
-		//$this->loader->add_action('init', $cookie, 'register_shortcodes');
+		$cookie = new Cookies($this->version);
+		$this->loader->add_action('init', $cookie, 'register_shortcodes');
 		
 		$this->loader->add_filter( 'login_message', $admin, 'smallenvelop_login_message' );
 	}
@@ -76,12 +76,12 @@ class Core
 	 */
 	private function define_public_hooks() 
 	{
-		//$cookie = new Cookies($this->version);
-		//$cleanup = new Cleanup($this->version);
+		$cookie = new Cookies($this->version);
+		$cleanup = new Cleanup($this->version);
 
 		# cookie assets		
-		//$this->loader->add_action('wp_footer', $cookie, 'enqueue_public_scripts');
-		//$this->loader->add_action('wp_footer', $cookie, 'enqueue_public_styles');
+		$this->loader->add_action('wp_footer', $cookie, 'enqueue_public_scripts');
+		$this->loader->add_action('wp_footer', $cookie, 'enqueue_public_styles');
 
 		# clean up head/body
 		//$this->loader->add_action('init', $cleanup, 'headers');
