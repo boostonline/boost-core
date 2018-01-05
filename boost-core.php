@@ -14,7 +14,7 @@
  * @wordpress-plugin
  * Plugin Name: 	Boost Core
  * Description: 	Core functionality for WordPress Development.
- * Version: 		0.0.1
+ * Version: 		0.0.2
  * Author: 		Boost
  * Author URI: 		https://boostonlineadvertising.co.uk
  * License: 		GPL-2.0+

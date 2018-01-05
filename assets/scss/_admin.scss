@@ -27,7 +27,7 @@ $url_0: url(https://boostonlineadvertising.co.uk/wp-content/uploads/2017/01/neww
 //original selectors
 //.button, .acf-button, .add-new-h2, .button-primary
 %extend_1 {
-  height: 30px !important;
+  /*height: 30px !important;
   padding: 0 20px !important;
   line-height: 30px !important;
   border: none !important;
@@ -37,17 +37,17 @@ $url_0: url(https://boostonlineadvertising.co.uk/wp-content/uploads/2017/01/neww
   //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
   border-radius: 3px !important;
   //Instead of the line below you could use @include text-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
-  text-shadow: none !important;
+  text-shadow: none !important;*/
 }
 
 //original selectors
 //.actions .button, .actions .acf-button, .actions .add-new-h2, .actions .button-primary, .search-box .button, .search-box .acf-button, .search-box .add-new-h2, .search-box .button-primary, .wp-filter .button, .wp-filter .acf-button, .wp-filter .add-new-h2, .wp-filter .button-primary, .button-small, .tagadd, .page-title-action
 %extend_2 {
-  height: auto !important;
+  /*height: auto !important;
   padding: 0 10px !important;
   line-height: 26px !important;
   //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
-  border-radius: 3px !important;
+  border-radius: 3px !important;*/
 }
 
 //original selectors
@@ -132,11 +132,11 @@ $url_0: url(https://boostonlineadvertising.co.uk/wp-content/uploads/2017/01/neww
 //original selectors
 //#wpadminbar ul#wp-admin-bar-root-default li a:before, #wpadminbar ul#wp-admin-bar-root-default li a span.ab-icon, #wpadminbar ul#wp-admin-bar-top-secondary li a:before, #wpadminbar ul#wp-admin-bar-top-secondary li a span.ab-icon
 %extend_12 {
-  top: 0;
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
+  /*top: 0;*/
+  padding-top: 10px !important;
+  /*padding-bottom: 0 !important;*/
   color: $white;
-  font: 400 20px/42px dashicons !important;
+  font: 0 20px/42px dashicons !important;
 }
 
 //original selectors
