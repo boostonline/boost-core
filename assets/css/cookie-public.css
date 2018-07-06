@@ -1,48 +1,64 @@
+/* line 1, ../scss/cookie-public.scss */
 #wp-notification {
   background: rgba(0, 0, 0, 0.85);
   width: 100%;
   position: fixed;
   bottom: 0;
   z-index: 99;
-  display: none; }
+  display: none;
+}
 
+/* line 10, ../scss/cookie-public.scss */
 #wp-notification.open {
-  display: block; }
+  display: block;
+}
 
+/* line 14, ../scss/cookie-public.scss */
 #wp-notification .wp-notification-container {
   margin: 0 auto;
   color: #fff;
   max-width: 1280px;
   text-align: center;
-  padding: 10px 0; }
+  padding: 10px 0;
+}
 
+/* line 22, ../scss/cookie-public.scss */
 #wp-notification .wp-notification-container p {
   text-transform: uppercase;
-  margin: 0; }
+  margin: 0;
+}
 
+/* line 27, ../scss/cookie-public.scss */
 #wp-notification .wp-notification-container p a {
   background-color: #fff;
   color: #222;
   text-decoration: none;
   padding: 3px 5px;
   font-weight: bold;
-  margin-left: 5px; }
+  margin-left: 5px;
+}
 
+/* line 36, ../scss/cookie-public.scss */
 #wp-notification .wp-notification-container p a:hover {
-  background-color: #efefef; }
+  background-color: #efefef;
+}
 
+/* line 40, ../scss/cookie-public.scss */
 #wp-notification-toggle {
   position: absolute;
   right: 20px;
-  bottom: 10px; }
+  bottom: 10px;
+}
 
+/* line 46, ../scss/cookie-public.scss */
 #wp-notification-toggle p {
   color: #fff;
   font-size: 10px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
+/* line 52, ../scss/cookie-public.scss */
 #wp-notification-toggle p:hover {
   color: #dcdcdc;
-  cursor: pointer; }
-
-/*# sourceMappingURL=cookie-public.css.map */
+  cursor: pointer;
+}
