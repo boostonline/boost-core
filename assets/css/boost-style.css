@@ -52,8 +52,8 @@
 .wp-filter .button-primary:hover,
 .wp-filter .button-primary:focus, .button-small:hover, .button-small:focus, .tagadd:hover, .tagadd:focus, .page-title-action:hover, .page-title-action:focus {
   color: white !important;
-  background-color: #addaa5 !important;
-  border-color: #addaa5 !important;
+  background-color: #2ab82e !important;
+  border-color: #2ab82e !important;
 }
 
 /* line 63, ../scss/_admin.scss */
@@ -266,7 +266,7 @@ body.adtrak-theme-clean.folded #adminmenu .wp-not-current-submenu .wp-submenu {
 }
 /* line 255, ../scss/_admin.scss */
 body.login {
-  background-color: #addaa5;
+  background-color: #2ab82e;
 }
 
 /* line 259, ../scss/_admin.scss */
@@ -1188,8 +1188,16 @@ img.help_tip {
 }
 
 /* line 1144, ../scss/_admin.scss */
-.login #backtoblog a, .login #nav a {
+.login #backtoblog a,
+.login #backtoblog a:hover,
+.login #nav a,
+.login #nav a:hover {
   color: #fff;
+}
+
+/* line 1148, ../scss/_admin.scss */
+.login .message {
+  margin-top: 24px;
 }
 
 /* line 9, ../scss/_default.scss */
