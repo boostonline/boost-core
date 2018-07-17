@@ -52,8 +52,8 @@
 .wp-filter .button-primary:hover,
 .wp-filter .button-primary:focus, .button-small:hover, .button-small:focus, .tagadd:hover, .tagadd:focus, .page-title-action:hover, .page-title-action:focus {
   color: white !important;
-  background-color: #2ab82e !important;
-  border-color: #2ab82e !important;
+  background-color: #26a525 !important;
+  border-color: #26a525 !important;
 }
 
 /* line 63, ../scss/_admin.scss */
@@ -266,7 +266,7 @@ body.adtrak-theme-clean.folded #adminmenu .wp-not-current-submenu .wp-submenu {
 }
 /* line 255, ../scss/_admin.scss */
 body.login {
-  background-color: #2ab82e;
+  background-color: #26a525;
 }
 
 /* line 259, ../scss/_admin.scss */
@@ -1101,7 +1101,7 @@ html.wp-toolbar {
   width: 80% !important;
   height: 85% !important;
   background-size: contain !important;
-  background-image: url(https://boostonlineadvertising.co.uk/wp-content/uploads/2017/01/newwhitelogo.png) !important;
+  background-image: url(https://webpreview.boostonline.co.uk/boost-logo.png) !important;
   background-position: center bottom;
 }
 
@@ -1253,7 +1253,7 @@ img.help_tip {
 }
 /* line 50, ../scss/_default.scss */
 #wpadminbar li a:focus span {
-  color: #4ace33 !important;
+  color: #2ab82e !important;
 }
 /* line 53, ../scss/_default.scss */
 #wpadminbar li a span.ab-icon {
@@ -1278,11 +1278,11 @@ img.help_tip {
 }
 /* line 70, ../scss/_default.scss */
 #wpadminbar li:hover > a {
-  color: #4ace33 !important;
+  color: #2ab82e !important;
 }
 /* line 72, ../scss/_default.scss */
 #wpadminbar li:hover > a span {
-  color: #4ace33 !important;
+  color: #2ab82e !important;
 }
 
 /* line 78, ../scss/_default.scss */
@@ -1359,7 +1359,7 @@ img.help_tip {
 }
 /* line 138, ../scss/_default.scss */
 #adminmenuwrap ul#adminmenu li.current a .wp-menu-image:before, #adminmenuwrap ul#adminmenu li.wp-has-current-submenu a .wp-menu-image:before {
-  color: #4ace33;
+  color: #2ab82e;
 }
 /* line 142, ../scss/_default.scss */
 #adminmenuwrap ul#adminmenu li.wp-has-submenu ul.wp-submenu {
@@ -1406,7 +1406,7 @@ img.help_tip {
 }
 /* line 183, ../scss/_default.scss */
 #adminmenuwrap ul#adminmenu li:hover a .wp-menu-image:before, #adminmenuwrap ul#adminmenu li:focus a .wp-menu-image:before {
-  color: #4ace33;
+  color: #2ab82e;
 }
 /* line 187, ../scss/_default.scss */
 #adminmenuwrap ul#adminmenu li.menu-top:hover, #adminmenuwrap ul#adminmenu li.opensub > a.menu-top,
@@ -1432,7 +1432,7 @@ img.help_tip {
 /* line 204, ../scss/_default.scss */
 #adminmenuwrap ul#adminmenu > li.current .wp-menu-image:before {
   transition: all 0s;
-  color: #4ace33;
+  color: #2ab82e;
 }
 /* line 209, ../scss/_default.scss */
 #adminmenuwrap ul#adminmenu > li.wp-has-current-submenu {
@@ -1441,7 +1441,7 @@ img.help_tip {
 /* line 211, ../scss/_default.scss */
 #adminmenuwrap ul#adminmenu > li.wp-has-current-submenu .wp-menu-image:before {
   transition: all 0s;
-  color: #4ace33;
+  color: #2ab82e;
 }
 /* line 216, ../scss/_default.scss */
 #adminmenuwrap ul#adminmenu > li:hover {
@@ -1450,7 +1450,7 @@ img.help_tip {
 /* line 218, ../scss/_default.scss */
 #adminmenuwrap ul#adminmenu > li:hover .wp-menu-image:before {
   transition: all 0s;
-  color: #4ace33;
+  color: #2ab82e;
 }
 /* line 223, ../scss/_default.scss */
 #adminmenuwrap ul#adminmenu > li:focus {
@@ -1459,7 +1459,7 @@ img.help_tip {
 /* line 225, ../scss/_default.scss */
 #adminmenuwrap ul#adminmenu > li:focus .wp-menu-image:before {
   transition: all 0s;
-  color: #4ace33;
+  color: #2ab82e;
 }
 
 /* line 234, ../scss/_default.scss */
@@ -1472,12 +1472,12 @@ img.help_tip {
 #collapse-menu:hover span,
 #collapse-menu:hover #collapse-button div:after {
   opacity: 1;
-  color: #4ace33;
+  color: #2ab82e;
 }
 
 /* line 248, ../scss/_default.scss */
 .button-primary {
-  background-color: #4ace33 !important;
+  background-color: #2ab82e !important;
 }
 /* line 250, ../scss/_default.scss */
 .button-primary:hover {
@@ -1486,7 +1486,7 @@ img.help_tip {
 
 /* line 255, ../scss/_default.scss */
 button.button-primary, button.blue {
-  background-color: #4ace33 !important;
+  background-color: #2ab82e !important;
 }
 /* line 258, ../scss/_default.scss */
 button.button-primary:hover, button.blue:hover {
@@ -1499,7 +1499,7 @@ button:active, button:focus {
 
 /* line 268, ../scss/_default.scss */
 .button.button-primary, .button.blue {
-  background-color: #4ace33 !important;
+  background-color: #2ab82e !important;
 }
 /* line 271, ../scss/_default.scss */
 .button.button-primary:hover, .button.blue:hover {
@@ -1512,7 +1512,7 @@ button:active, button:focus {
 
 /* line 281, ../scss/_default.scss */
 .acf-button.button-primary, .acf-button.blue {
-  background-color: #4ace33 !important;
+  background-color: #2ab82e !important;
 }
 /* line 284, ../scss/_default.scss */
 .acf-button.button-primary:hover, .acf-button.blue:hover {
@@ -1526,13 +1526,13 @@ button:active, button:focus {
 /* line 295, ../scss/_default.scss */
 .wp-core-ui .button-primary.disabled, .wp-core-ui .button-primary:disabled {
   color: #F0F0F2 !important;
-  background-color: #4ace33 !important;
+  background-color: #2ab82e !important;
 }
 /* line 301, ../scss/_default.scss */
 .wp-core-ui .button-primary-disabled,
 .wp-core-ui .button-primary[disabled] {
   color: #F0F0F2 !important;
-  background-color: #4ace33 !important;
+  background-color: #2ab82e !important;
 }
 
 /* line 307, ../scss/_default.scss */
@@ -1550,7 +1550,7 @@ button:active, button:focus {
   margin: 1px 0 0 2px !important;
   color: #222 !important;
   border-radius: 5px !important;
-  background-color: #4ace33 !important;
+  background-color: #2ab82e !important;
 }
 /* line 320, ../scss/_default.scss */
 .update-plugins span {
@@ -1582,22 +1582,22 @@ button:active, button:focus {
 
 /* line 344, ../scss/_default.scss */
 input[type=radio]:focus {
-  border-color: #4ace33 !important;
+  border-color: #2ab82e !important;
 }
 /* line 347, ../scss/_default.scss */
 input[type=radio]:checked:before {
-  background-color: #4ace33;
+  background-color: #2ab82e;
 }
 
 /* line 353, ../scss/_default.scss */
 .wp-editor-tabs .switch-tmce:hover, .wp-editor-tabs .switch-tmce:active, .wp-editor-tabs .switch-tmce:focus {
   color: white !important;
-  background-color: #4ace33 !important;
+  background-color: #2ab82e !important;
 }
 /* line 361, ../scss/_default.scss */
 .wp-editor-tabs .switch-html:hover, .wp-editor-tabs .switch-html:active, .wp-editor-tabs .switch-html:focus {
   color: white !important;
-  background-color: #4ace33 !important;
+  background-color: #2ab82e !important;
 }
 
 @media only screen and (max-width: 960px) {
@@ -1705,7 +1705,7 @@ input[type=radio]:checked:before {
 }
 /* line 459, ../scss/_default.scss */
 #wpbody #wpbody-content .wrap .nav-tab-wrapper .nav-tab.nav-tab-active, #wpbody #wpbody-content .wrap .nav-tab-wrapper .nav-tab:hover {
-  border-bottom: 1px solid #4ace33;
+  border-bottom: 1px solid #2ab82e;
 }
 
 /* line 469, ../scss/_default.scss */
@@ -1761,7 +1761,7 @@ body.folded #adminmenuwrap #adminmenu li.current a .wp-menu-name, body.folded #a
 }
 /* line 515, ../scss/_default.scss */
 body.folded #adminmenuwrap #adminmenu li.current a .wp-menu-image:before, body.folded #adminmenuwrap #adminmenu li.wp-has-current-submenu a .wp-menu-image:before {
-  color: #4ace33;
+  color: #2ab82e;
 }
 /* line 520, ../scss/_default.scss */
 body.folded #adminmenuwrap #adminmenu li.wp-has-submenu ul.wp-submenu {
@@ -1820,25 +1820,25 @@ input[type=url]:focus,
 input[type=week]:focus,
 select:focus,
 textarea:focus {
-  border-color: #4ace33 !important;
+  border-color: #2ab82e !important;
 }
 
 /* line 574, ../scss/_default.scss */
 input[type="checkbox"]:before,
 .view-switch a.current:before {
-  color: #4ace33 !important;
+  color: #2ab82e !important;
 }
 
 /* line 579, ../scss/_default.scss */
 .tmce-active .wp-editor-tabs .switch-tmce,
 .html-active .wp-editor-tabs .switch-html {
   color: white !important;
-  background-color: #4ace33 !important;
+  background-color: #2ab82e !important;
 }
 
 /* line 585, ../scss/_default.scss */
 .post-com-count:hover span {
-  background-color: #4ace33 !important;
+  background-color: #2ab82e !important;
 }
 
 /* line 589, ../scss/_default.scss */
