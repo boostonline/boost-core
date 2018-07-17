@@ -4,7 +4,7 @@ $color_cod_gray_approx: #090909;
 $color_bon_jour_approx: #e0e0e0;
 $white: white;
 $silver: #c0c0c0;
-$color_persimmon_approx: #addaa5;
+$color_persimmon_approx: #26a525;
 $color_atlantis_approx: #7ad03a;
 $color_shakespeare_approx: #4ba0d9;
 $color_mystic_approx: #e9ebee;
@@ -21,7 +21,7 @@ $font_0: Open Sans;
 $font_1: sans-serif;
 
 //urls
-$url_0: url(https://boostonlineadvertising.co.uk/wp-content/uploads/2017/01/newwhitelogo.png);
+$url_0: url(https://webpreview.boostonline.co.uk/boost-logo.png);
 
 //@extend-elements
 //original selectors
@@ -1141,4 +1141,8 @@ img.help_tip {
   border-left: 4px solid #00B4AE !important;
 }
 
-.login #backtoblog a, .login #nav a {color: #ccc;}
+.login #backtoblog a,
+.login #backtoblog a:hover,
+.login #nav a,
+.login #nav a:hover {color: #fff;}
+.login .message {margin-top:24px;}

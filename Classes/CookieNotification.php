@@ -16,7 +16,7 @@ class CookieNotification
 	{
 		$this->version = $version;
 		
-		$this->create_page();
+		//$this->create_page();
 	}
 
 	/**
@@ -67,7 +67,7 @@ class CookieNotification
 	 */
 	public function enqueue_public_styles() 
 	{
-		wp_enqueue_style('adtrak-cookie', AC_PLUGIN_URL . 'assets/css/cookie-public.css', [], $this->version, 'all');
+		wp_enqueue_style('boost-cookie', AC_PLUGIN_URL . 'assets/css/cookie-public.css', [], $this->version, 'all');
 	}
 
 	/**
@@ -76,7 +76,7 @@ class CookieNotification
 	 */
 	public function enqueue_public_scripts() 
 	{
-		wp_enqueue_script('adtrak-cookie', AC_PLUGIN_URL . 'assets/js/min/cookie-public-min.js', [ 'jquery' ], $this->version, false);
+		wp_enqueue_script('boost-cookie', AC_PLUGIN_URL . 'assets/js/min/cookie-public-min.js', [ 'jquery' ], $this->version, false);
 	}
 
 }
