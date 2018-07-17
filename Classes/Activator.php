@@ -25,5 +25,8 @@ class Activator
         $source = __DIR__ . '/../views/webpreview.php';
         $dest = ABSPATH . 'wp-content/webpreview.php';
         copy($source, $dest);
+        $source = __DIR__ . '/../views/db-error.php';
+        $dest = ABSPATH . 'wp-content/db-error.php';
+        copy($source, $dest);
 	}
 }

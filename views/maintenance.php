@@ -17,8 +17,11 @@ header('Retry-After: 600');
 <link rel="shortcut icon" type="image/x-icon" href="https://webpreview.boostonline.co.uk/favicon.ico">
 <style type='text/css'>
 	body {
-		background-repeat: repeat;
+		background-repeat: no-repeat;
+		background-position: 20px 20px;
+		background-size: 40px;
 		background-color: #26a525;
+		<?php if($dberr){?>background-image:url('https://webpreview.boostonline.co.uk/boost-logo-blue.png');<?php } ?>
 	}
 	div { width: 600px; margin: 0 auto; text-align: center;	color: #fff;  }
 	h1 { font-family: "Source Sans Pro", Helvetica, Arial, sans-serif; font-size: 34px; font-weight: 300; margin-top: 120px; margin-bottom: 12px; }
@@ -36,7 +39,7 @@ header('Retry-After: 600');
 		<p>Managed By <a href="https://boostonlineadvertising.co.uk/contact-boostonline/" target="_blank">BoostOnline UK Group Ltd</a>.</p>
 		<p>
 			<a href="https://boostonlineadvertising.co.uk/contact-boostonline/" target="_blank">
-				<img width="400" alt="Boost Online UK Ltd" src="https://webpreview.boostonline.co.uk/boost-logo.png" />
+				<img width="400" alt="Boost Online UK Ltd" src="<?php if($dberr){?>https://webpreview.boostonline.co.uk/boost-full-logo-blue.png<?php } else { ?>https://webpreview.boostonline.co.uk/boost-logo.png<?php } ?>" />
 			</a>
 		</p>
 	</div>

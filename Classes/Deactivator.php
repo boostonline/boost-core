@@ -21,5 +21,6 @@ class Deactivator
 	{
         unlink(ABSPATH . 'wp-content/maintenance.php');
         unlink(ABSPATH . 'wp-content/webpreview.php');
+        unlink(ABSPATH . 'wp-content/db-error.php');
 	}
 }
