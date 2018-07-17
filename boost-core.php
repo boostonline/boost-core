@@ -43,6 +43,7 @@ function activate_core()
 {
 	\BoostCore\Classes\Activator::activate();
 }
+register_activation_hook( __FILE__, 'activate_core' );
 
 /**
  * The code that runs during plugin deactivation.
@@ -52,6 +53,7 @@ function deactivate_core()
 {
 	\BoostCore\Classes\Deactivator::deactivate();
 }
+register_deactivation_hook( __FILE__, 'deactivate_core' );
 
 # github updater
 require __DIR__ . '/vendor/yahnis-elsts/plugin-update-checker/plugin-update-checker.php';

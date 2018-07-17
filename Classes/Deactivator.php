@@ -19,6 +19,7 @@ class Deactivator
 	 */
 	public static function deactivate() 
 	{
-
+        unlink(ABSPATH . 'wp-content/maintenance.php');
+        unlink(ABSPATH . 'wp-content/webpreview.php');
 	}
 }

@@ -19,6 +19,11 @@ class Activator
 	 */
 	public static function activate() 
 	{
-
+        $source = __DIR__ . '/../views/maintenance.php';
+        $dest = ABSPATH . 'wp-content/maintenance.php';
+        copy($source, $dest);
+        $source = __DIR__ . '/../views/webpreview.php';
+        $dest = ABSPATH . 'wp-content/webpreview.php';
+        copy($source, $dest);
 	}
 }
