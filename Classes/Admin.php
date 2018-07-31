@@ -98,7 +98,7 @@ class Admin
     
     function smallenvelop_login_message( $message ) {
         if ( empty($message) ){
-            return '<center><font style="color:white">Your Local Online Marketing Experts</font></center>';
+            return '';
         } else {
             return $message;
         }
