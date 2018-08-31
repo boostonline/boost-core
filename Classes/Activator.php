@@ -19,23 +19,51 @@ class Activator
 	 */
 	public static function activate() 
 	{
-	    /* Copy custom drop-ins*/
+	    /* List custom drop-ins */
 	    
-        $source = __DIR__ . '/../views/maintenance.php';
-        $dest = ABSPATH . 'wp-content/maintenance.php';
-        copy($source, $dest);
-        $source = __DIR__ . '/../views/webpreview.php';
-        $dest = ABSPATH . 'wp-content/webpreview.php';
-        copy($source, $dest);
-        $source = __DIR__ . '/../views/db-error.php';
-        $dest = ABSPATH . 'wp-content/db-error.php';
-        copy($source, $dest);
-        
+	    $tocopy = array(
+	        array(
+                'source' => __DIR__ . '/../views/maintenance.php',
+                'dest' => ABSPATH . 'wp-content/maintenance.php'
+	        ),
+	        array(
+                'source' => __DIR__ . '/../views/webpreview.php',
+                'dest' => ABSPATH . 'wp-content/webpreview.php'
+	        ),
+	        array(
+                'source' => __DIR__ . '/../views/db-error.php',
+                'dest' => ABSPATH . 'wp-content/db-error.php'
+	        ),
+	        array(
+                'source' => __DIR__ . '/../views/400.shtml',
+                'dest' => ABSPATH . '400.shtml'
+	        ),
+	        array(
+                'source' => __DIR__ . '/../views/401.shtml',
+                'dest' => ABSPATH . '401.shtml'
+	        ),
+	        array(
+                'source' => __DIR__ . '/../views/404.shtml',
+                'dest' => ABSPATH . '404.shtml'
+	        ),
+	        array(
+                'source' => __DIR__ . '/../views/500.shtml',
+                'dest' => ABSPATH . '500.shtml'
+	        )
+	   );
+	   
+	    /* Copy custom drop-ins only if they don't exist */
+	   
+	    foreach ($tocopy AS $file) {
+            if (!file_exists($file['dest'])) {
+                copy($file['source'], $file['dest']);
+            }
+	    }
+	   
         /* Create Custom Error Pages in WordPress using HTACCESS
            Get HTACCESS path & dynamic website url */
-           
-        $path = dirname(__FILE__) . '/../../../../' ;
-        $htaccess_file = $path . '.htaccess';
+
+        $htaccess_file = ABSPATH . '.htaccess';
         $website_url = get_bloginfo('url').'/';
         
         // Check & prevent writing error pages more than once
@@ -46,10 +74,10 @@ class Activator
         
         // Setup Error page locations dynamically
         $error_pages .= PHP_EOL. PHP_EOL . '# BEGIN WordPress Error Pages'. PHP_EOL. PHP_EOL;
-        $error_pages .= 'ErrorDocument 401 '.$website_url.'error-401.shtml'.PHP_EOL;
-        $error_pages .= 'ErrorDocument 403 '.$website_url.'error-403.shtml'.PHP_EOL;
-        $error_pages .= 'ErrorDocument 404 '.$website_url.'error-404.shtml'.PHP_EOL;
-        $error_pages .= 'ErrorDocument 500 '.$website_url.'error-500.shtml'.PHP_EOL;
+        $error_pages .= 'ErrorDocument 401 '.$website_url.'401.shtml'.PHP_EOL;
+        $error_pages .= 'ErrorDocument 403 '.$website_url.'403.shtml'.PHP_EOL;
+        $error_pages .= 'ErrorDocument 404 '.$website_url.'404.shtml'.PHP_EOL;
+        $error_pages .= 'ErrorDocument 500 '.$website_url.'500.shtml'.PHP_EOL;
         $error_pages .= PHP_EOL. '# END WordPress Error Pages'. PHP_EOL;
         
         // Write the error page locations to HTACCESS
